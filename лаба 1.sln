@@ -1,13 +1,10 @@
 import math
 
-# Ввод данных
 x = float(input("x -> "))
 y = float(input(" y -> "))
 
-# Проверка области допустимых значений
 if y == 0:
     print("error")
 else:
-    # Вычисление значения выражения
     z = (math.sin(x) / y) + math.cos(x)
     print(":", z)
